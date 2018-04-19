@@ -5,27 +5,27 @@ import { RouterModule, Routes } from '@angular/router';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { ModalComponent } from './modal/modal.component';
+// import { ModalComponent } from './modal/modal.component';
 import { NavComponent } from './nav/nav.component';
-import { NavIzquierdaComponent } from './nav-izquierda/nav-izquierda.component';
-import { FooterComponent } from './footer/footer.component';
-import { ContenidoComponent } from './contenido/contenido.component';
+// import { NavIzquierdaComponent } from './nav-izquierda/nav-izquierda.component';
+// import { FooterComponent } from './footer/footer.component';
+// import { ContenidoComponent } from './contenido/contenido.component';
 
 
 const routes: Routes = [
-  { path: 'home', component: ContenidoComponent },
-  { path: '',component: ContenidoComponent , pathMatch: 'full' },
-  { path: '**', redirectTo: '/', pathMatch: 'full' },
+  // { path: 'home', component: ContenidoComponent },
+  // { path: '',component: ContenidoComponent , pathMatch: 'full' },
+  // { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ModalComponent,
+    // ModalComponent,
     NavComponent,
-    NavIzquierdaComponent,
-    FooterComponent,
-    ContenidoComponent
+    // NavIzquierdaComponent,
+    // FooterComponent,
+    // ContenidoComponent
   ],
   imports: [
     BrowserModule,
