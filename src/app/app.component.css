@@ -1,0 +1,16 @@
+/* div{
+    min-height: 100%;
+    position:absolute;
+} */
+
+/* app-nav-derecha{
+    min-height: 100%;
+    position:absolute;
+}  */
+app-contenido{
+    background-color: #fdcc52;
+}
+#chat{
+    /* background: linear-gradient(to top, #4c048f 0%,#e04040); */
+    background-color: #e3f2fd;
+}

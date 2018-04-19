@@ -1,0 +1,24 @@
+ /* div.tab-pane{
+    border:black 3px solid;
+    border-radius: 15px;
+}  */
+/* nav-izquierda{ */
+    /* background-color: #e3f2fd; */
+    /* background:linear-gradient(top, #40e0d0 0%,#87ceeb 100%); */
+    /* background: linear-gradient(to top, #e04040 0%,#4c048f); */
+    /* border-right: 3px solid #0af3d4; */
+/* } */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #232332;
+    background-color:transparent;
+    font-weight: bold;  
+    font-size: 110%;
+}
+.nav-link{
+    color: black;
+    font-size: 80%;
+
+}
+.nav-link:hover{
+    font-size: 100%;
+}
